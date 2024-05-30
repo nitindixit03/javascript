@@ -12,15 +12,15 @@
 
 //SWITCH STATEMENT
 
-let age = 15;
+// let age = 15;
 
-switch (age) {
-    case (age > 18):
-        console.log("Eligible for vote");
-        break;
-    default:
-        console.log("Not eligible for vote");
-}
-// ternary operator
-let a=12;
-console.log("you can", a>18? "drivr" : "not drive")
+// switch (age) {
+//     case (age > 18):
+//         console.log("Eligible for vote");
+//         break;
+//     default:
+//         console.log("Not eligible for vote");
+// }
+// // ternary operator
+// let a=12;
+// console.log("you can", a>18? "drivr" : "not drive")
