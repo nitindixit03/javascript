@@ -1,0 +1,12 @@
+
+
+.bulbbox{
+    background-color:  rgb(255, 255, 0);
+    
+}
+#bulb{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+}
