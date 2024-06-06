@@ -46,25 +46,43 @@
 //PROMISE CHANING
 
 
+// let p1 = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         console.log("resolved after 2 seconds")
+//     },2000)
+//     resolve(56);
+// })
+
+// p1.then((value) => {
+//     console.log(value);
+
+//     let p2 = new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             resolve("Promise-2")
+//         },2000)
+//     })
+//     return p2;
+// }).then((value)=>{
+//     console.log(value);
+//     return 2;
+// }).then((value)=>{
+//     console.log("finally done!!");
+// })
+
+
+
+// ATTACHING MULTIPLE HANDLING
+
 let p1 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
-        console.log("resolved after 2 seconds")
-    },2000)
-    resolve(56);
+        resolve(2);
+    },2000);
 })
 
-p1.then((value) => {
-    console.log(value);
+p1.then(()=>{
+    console.log("congratulation this promise is now resolved!!!")
+});
 
-    let p2 = new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            resolve("Promise-2")
-        },2000)
-    })
-    return p2;
-}).then((value)=>{
-    console.log(value);
-    return 2;
-}).then((value)=>{
-    console.log("finally done!!");
-})
+p1.then(()=>{
+    console.log("hurray!!")
+});
