@@ -1,4 +1,4 @@
-// 1st question
+// 1st Question
 
 // const loadscript = async(src)=>{
 //     return new Promise((resolve,reject)=>{
@@ -18,7 +18,7 @@
 //     console.log(new Date().getMilliseconds())
 // });
 
-// 2nd question
+// 2nd Question
 // const run = async()=>{
 //     console.log(new Date().getMilliseconds())
 //     let a = await loadscript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js")
@@ -27,7 +27,7 @@
 // }
 // run();
 
-//3rd question
+//3rd Question
 
 // let run1 = async(a)=>{
 //     return new Promise((resolve,reject)=>{
@@ -49,4 +49,6 @@
 //     }
 // }
 // run();
+
+
 
