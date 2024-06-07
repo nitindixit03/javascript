@@ -73,16 +73,16 @@
 
 // ATTACHING MULTIPLE HANDLING
 
-let p1 = new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-        resolve(2);
-    },2000);
-})
+// let p1 = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve(2);
+//     },2000);
+// })
 
-p1.then(()=>{
-    console.log("congratulation this promise is now resolved!!!")
-});
+// p1.then(()=>{
+//     console.log("congratulation this promise is now resolved!!!")
+// });
 
-p1.then(()=>{
-    console.log("hurray!!")
-});
+// p1.then(()=>{
+//     console.log("hurray!!")
+// });
