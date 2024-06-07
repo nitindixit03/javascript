@@ -122,19 +122,19 @@ let p3 = new Promise((resolve,reject)=>{
 
 // make all these promise so that it all come at a same time
 
-let promise_all = Promise.all([p1,p2,p3])   // it will give an array after 3 seconds
-                                            // but if any one of them having error then it won't work. but if we want to make we can use Promise.allSettled()
+// let promise_all = Promise.all([p1,p2,p3])   // it will give an array after 3 seconds
+//                                             // but if any one of them having error then it won't work. but if we want to make we can use Promise.allSettled()
 
-promise_all.then((value)=>{
-    console.log(value);
-})
+// promise_all.then((value)=>{
+//     console.log(value);
+// })
 
-let promise_al = Promise.allSettled([p1,p2,p3])   // it will give an array after 3 seconds
+// let promise_al = Promise.allSettled([p1,p2,p3])   // it will give an array after 3 seconds
                                            
 
-promise_al.then((value)=>{
-    console.log(value);
-})
+// promise_al.then((value)=>{
+//     console.log(value);
+// })
 
 //  Promise.race(promise) give only one value which resolve first  or reject first it will give that value only!! 
 // Promise.any(promise)  (which comes first)give only one value that value will be resolve  but if error comes it will move to next one but if  all are carring error it will show an Aggregate Error.
