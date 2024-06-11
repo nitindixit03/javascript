@@ -1,0 +1,12 @@
+*{
+    background-color: black;
+    color: green;
+}
+#messages{
+    text-align: center;
+    justify-content: center;
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+}
