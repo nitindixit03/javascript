@@ -5,6 +5,14 @@ html, body {
     background-color: magenta;
 }
 
+input::placeholder {
+    color: rgb(219, 38, 38);
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+   
+}
+
 #clock {
     position: absolute;
     top: 50%;
@@ -39,6 +47,7 @@ p {
 }
 
 #seconds {
+    
     border: 2px solid #000;
     height: 50px;
     width: 200px;
