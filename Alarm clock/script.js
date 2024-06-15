@@ -15,6 +15,11 @@ function setAlarm() {
                 clearInterval(countdown);
                 message.textContent = "Time's up!";
                 alarmSound.play();
+                let color = document.getElementById("clock");
+                color.style.backgroundColor = 'lightgreen';
+                setTimeout(()=>{
+                color.style.backgroundColor = 'white';
+                },6000);
             }
         }, 1000);
     } else {
@@ -26,4 +31,6 @@ function stopAlarm() {
     document.getElementById('message').innerText = '';
     document.getElementById('alarmSound').pause();
     document.getElementById('alarmSound').currentTime = 0;
+    let color = document.getElementById("clock");
+    color.style.backgroundColor = 'white';
 }
