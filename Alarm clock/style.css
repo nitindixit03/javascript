@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: magenta;
+}
+
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    border: 10px solid #000;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 30px rgb(73, 1, 70);
+    height: 300px;
+    width: 500px;
+}
+button {
+    margin-bottom: 10px; 
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin-left: 80px;
+    background-color: purple;
+    height: 50px;
+    width: 100px;
+}
+button:hover{
+    cursor: pointer;
+}
+p {
+    margin-top: 10px; 
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+#seconds {
+    border: 2px solid #000;
+    height: 50px;
+    width: 200px;
+}
+
+#stop{
+    background-color: red;
+    margin-top: 40px;
+    margin-left: 290px;
+}
+
+
+#seconds:hover{
+    cursor: pointer;
+}
